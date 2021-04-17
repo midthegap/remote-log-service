@@ -1,0 +1,17 @@
+2021-04-17 12:39:02,623 INFO  o.s.b.StartupInfoLogger Starting App using Java 14.0.2 on brakko with PID 25453 (/home/stefano/workspaces/remote-log-service/target/classes started by stefano in /home/stefano/workspaces/remote-log-service)
+2021-04-17 12:39:02,624 INFO  o.s.b.SpringApplication No active profile set, falling back to default profiles: default
+2021-04-17 12:39:03,004 INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 8443 (https)
+2021-04-17 12:39:03,009 INFO  o.a.j.l.DirectJDKLog Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-04-17 12:39:03,009 INFO  o.a.j.l.DirectJDKLog Starting service [Tomcat]
+2021-04-17 12:39:03,010 INFO  o.a.j.l.DirectJDKLog Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-17 12:39:03,036 INFO  o.a.j.l.DirectJDKLog Initializing Spring embedded WebApplicationContext
+2021-04-17 12:39:03,037 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 389 ms
+2021-04-17 12:39:03,114 INFO  o.s.s.c.ExecutorConfigurationSupport Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 12:39:03,184 INFO  o.a.j.l.DirectJDKLog Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-04-17 12:39:03,624 INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 8443 (https) with context path ''
+2021-04-17 12:39:03,629 INFO  o.s.b.StartupInfoLogger Started App in 1.217 seconds (JVM running for 1.366)
+2021-04-17 12:39:03,630 INFO  i.m.remotelogger.App ********** REMOTE LOG SERVICE STARTED *************
+2021-04-17 12:39:14,575 INFO  o.a.j.l.DirectJDKLog Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 12:39:14,575 INFO  o.s.w.s.FrameworkServlet Initializing Servlet 'dispatcherServlet'
+2021-04-17 12:39:14,576 INFO  o.s.w.s.FrameworkServlet Completed initialization in 1 ms
+2021-04-17 12:39:14,588 ERROR i.m.r.s.LoggerService PPMOBILE-No route to host
