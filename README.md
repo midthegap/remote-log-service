@@ -22,14 +22,14 @@ Requirements:
 
 Launch server app with:
 
-mvn compile spring-boot:run
+  `mvn compile spring-boot:run`
 
 You will get a REST service with at following endpoint:
 
-https://<SERVER ADDRESS>:8443/api/log
-HTTP METHOD: POST
-Expected parameters should be in the REQUEST BODY with media type 
-application/x-www-form-urlencoded 
+- `https://<SERVER ADDRESS>:8443/api/log`
+- HTTP METHOD: POST
+- Expected parameters should be in the REQUEST BODY with media type **application/x-www-form-urlencoded**
+
 Parameter names: 
 
 * priority (int),
