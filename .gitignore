@@ -32,3 +32,6 @@ nb*.xml
 
 ### VS Code ###
 .vscode/
+
+### logs
+logs/**/*.log
